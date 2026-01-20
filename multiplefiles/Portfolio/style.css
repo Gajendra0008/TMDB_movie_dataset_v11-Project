@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Layout */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #2a5298;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: #444;
+}
+
+.card ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.card ul li {
+    margin: 5px 0;
+}
+
+/* Contact Section */
+.contact p {
+    font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2a5298;
+    color: white;
+    margin-top: 30px;
+}
